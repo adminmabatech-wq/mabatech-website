@@ -1,80 +1,61 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="مابا للتقنية MABA Tech: خدمات تقنية وحلول أعمال وتطبيقات ذكية وألعاب رقمية مبتكرة في المملكة العربية السعودية.">
+<meta name="theme-color" content="#081433">
 <title>MABA Tech. | مابا للتقنية - نبني مستقبلك الرقمي</title>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',sans-serif}
-body{background:#060D24;color:#fff;line-height:1.7}
-a{color:inherit;text-decoration:none}
-.container{max-width:1200px;margin:auto;padding:0 20px}
-header{background:#0B1E4B;padding:14px 0;position:sticky;top:0;z-index:99}
-.nav{display:flex;justify-content:space-between;align-items:center}
-.logo img{height:58px;background:#fff;border-radius:12px;padding:4px 8px}
-.nav-links{display:flex;gap:24px;font-weight:700}
-.nav-links a.active{color:#00D4FF}
-.cta-btn{background:linear-gradient(90deg,#00D4FF,#8A2BE2);padding:10px 22px;border-radius:30px;font-weight:800}
-.hero{background:radial-gradient(circle at 50% 0%, #1a2f7a 0%, #060D24 70%);padding:70px 0 60px;text-align:center}
-.hero h1{font-size:52px;font-weight:900}
-.hero h1 span{color:#00D4FF}
-.hero p{color:#cbd5ff;font-size:20px;margin:16px 0 28px}
-.btn{padding:14px 32px;border-radius:30px;font-weight:800;display:inline-block;margin:6px}
-.btn-primary{background:linear-gradient(90deg,#00D4FF,#8A2BE2)}
-.btn-outline{border:2px solid #00D4FF}
-.section{padding:60px 0}
-.section h2{text-align:center;font-size:36px;font-weight:900}
-.section p.sub{text-align:center;color:#aab4d8;margin-bottom:32px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:#0E1A3F;border:1px solid rgba(0,212,255,.25);border-radius:18px;padding:28px;text-align:center}
-.card h3{margin:12px 0 8px;font-size:22px}
-.card p{color:#cbd5ff;font-size:15px}
-.icon{font-size:38px}
-.about{background:#0B1E4B}
-footer{background:#081433;padding:50px 0 20px;border-top:2px solid #8A2BE2}
-.footer-grid{display:grid;grid-template-columns:1.2fr 1.8fr 1fr;gap:30px}
-.footer-grid h3{color:#00D4FF;margin-bottom:12px}
-.footer-grid p{color:#dbe2ff;font-size:15px;margin-bottom:8px}
-.copy{text-align:center;margin-top:30px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);color:#9aa8cc;font-size:13px}
-.whatsapp{position:fixed;bottom:20px;left:20px;background:#25D366;padding:14px 20px;border-radius:50px;font-weight:800;z-index:100}
-@media(max-width:800px){.grid,.footer-grid{grid-template-columns:1fr}.hero h1{font-size:34px}.nav-links{display:none}}
+:root{--bg:#060d24;--panel:#0e1a3f;--navy:#0b1e4b;--cyan:#00d4ff;--purple:#8a2be2;--muted:#cbd5ff;--line:rgba(0,212,255,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:white;font-family:Cairo,Arial,sans-serif;line-height:1.85}a{color:inherit;text-decoration:none}button{font:inherit}.container{max-width:1200px;margin:auto;padding:0 22px}header{position:sticky;top:0;z-index:20;background:rgba(9,22,54,.96);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}.nav{min-height:82px;display:flex;align-items:center;gap:20px;justify-content:space-between}.logo{display:flex;align-items:center;gap:12px;font-weight:900}.logo img{height:56px;max-width:160px;object-fit:contain;background:#fff;border-radius:12px;padding:5px}.brand-fallback{display:none;font-size:20px;color:var(--cyan)}.nav-links{display:flex;align-items:center;gap:19px;font-size:13px;font-weight:800}.nav-links a:hover,.nav-links a:focus-visible{color:var(--cyan)}.pill,.btn{display:inline-flex;justify-content:center;align-items:center;border-radius:100px;font-weight:800;padding:11px 20px}.pill,.primary{background:linear-gradient(110deg,#00bce7,#7541df);color:white}.outline{border:1px solid var(--cyan);color:white}.menu-toggle{display:none;background:transparent;color:white;border:1px solid var(--line);border-radius:10px;padding:6px 12px;cursor:pointer}.hero{position:relative;overflow:hidden;text-align:center;padding:100px 0 92px;background:radial-gradient(ellipse at 50% 5%,#21377e 0%,#0a1539 45%,#060d24 85%)}.eyebrow{display:inline-block;padding:5px 17px;border:1px solid var(--line);background:rgba(0,212,255,.08);color:#8feaff;border-radius:30px;font-weight:800;font-size:13px}.hero h1{font-size:clamp(34px,6vw,64px);line-height:1.4;margin:18px 0 8px;font-weight:900}.hero h1 span,.accent{color:var(--cyan)}.hero p{color:var(--muted);font-size:clamp(15px,2vw,21px);max-width:720px;margin:12px auto 27px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.section{padding:78px 0;scroll-margin-top:85px}.section.alt{background:#0a1740}.section-heading{text-align:center;margin-bottom:32px}.section-heading h2{font-size:clamp(27px,3.6vw,38px);margin:0 0 8px;font-weight:900}.section-heading p{color:#b8c8ed;margin:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.card{background:linear-gradient(160deg,#12234d,#0b1736);border:1px solid var(--line);border-radius:20px;padding:27px;transition:transform .2s,border-color .2s;min-width:0}.card:hover{transform:translateY(-4px);border-color:rgba(0,212,255,.65)}.card .icon{font-size:36px}.card h3{font-size:19px;margin:12px 0 6px}.card p{color:var(--muted);font-size:14px;margin:0}.project{display:flex;flex-direction:column;gap:8px}.project h3{margin:0;font-size:19px}.project .tag{align-self:flex-start;font-size:11px;border-radius:30px;padding:3px 12px;color:#b5edff;background:rgba(0,212,255,.1);border:1px solid rgba(0,212,255,.2);font-weight:800}.project .project-icon{width:48px;height:48px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(0,212,255,.16),rgba(138,43,226,.23));border-radius:14px;font-size:26px}.project p{flex:1}.section-note{margin:25px auto 0;color:#b5c4e4;text-align:center;font-size:13px}.about-grid .card{text-align:center}.about-grid h3{color:#8feaff}.values{list-style:none;margin:0;padding:0;color:var(--muted);font-size:14px}.footer{background:#081433;padding:56px 0 22px;border-top:2px solid var(--purple);scroll-margin-top:85px}.footer-grid{display:grid;grid-template-columns:1.1fr 1.7fr 1fr;gap:28px}.footer h3{color:var(--cyan);margin:0 0 14px}.footer p{color:#dbe2ff;font-size:14px;margin:0 0 9px;overflow-wrap:anywhere}.footer a:hover{text-decoration:underline}.copy{text-align:center;color:#9aa8cc;font-size:13px;border-top:1px solid rgba(255,255,255,.12);margin-top:30px;padding-top:18px}.whatsapp{position:fixed;bottom:19px;left:19px;background:#168c4b;color:#fff;border-radius:40px;padding:11px 18px;font-weight:800;z-index:10;box-shadow:0 6px 24px #0007}.skip{position:absolute;top:-100px;right:10px;background:#fff;color:#000;padding:10px;z-index:30}.skip:focus{top:10px}a:focus-visible,button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:1050px){.nav-links{gap:10px;font-size:12px}.nav .pill{display:none}}@media(max-width:760px){.nav{min-height:74px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:74px;right:0;left:0;background:#0b1e4b;padding:15px 22px 22px;flex-direction:column;align-items:stretch;gap:8px;box-shadow:0 15px 22px #0005}.nav-links.open{display:flex}.nav-links a{padding:8px}.grid,.footer-grid{grid-template-columns:1fr}.hero{padding:70px 0}.section{padding:56px 0}.card{padding:23px}.whatsapp{font-size:12px;padding:9px 13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
 </style>
 </head>
 <body>
-<header><div class="container nav">
-<a class="logo" href="#"><img src="logo.png" alt="MABA Tech"></a>
-<nav class="nav-links"><a href="#" class="active">الرئيسية</a><a href="#services">خدماتنا</a><a href="#about">من نحن</a><a href="#contact">تواصل معنا</a></nav>
-<a href="https://wa.me/966555257087" class="cta-btn">اطلب عرض سعر</a>
-</div></header>
-<section class="hero"><div class="container">
-<h1>نبني <span>مستقبلك الرقمي</span></h1>
-<p>شريكك التقني الأول في بناء حلول رقمية مبتكرة</p>
-<a href="https://wa.me/966555257087" class="btn btn-primary">اطلب عرض سعر</a>
-<a href="#services" class="btn btn-outline">خدماتنا</a>
-</div></section>
-<section class="section" id="services"><div class="container">
-<h2>خدماتنا التقنية</h2><p class="sub">حلول متكاملة لدعم نمو أعمالك رقمياً</p>
-<div class="grid">
-<div class="card"><div class="icon">🛡️</div><h3>الأمن السيبراني</h3><p>حماية متقدمة لبياناتك وأنظمتك من التهديدات السيبرانية</p></div>
-<div class="card"><div class="icon">🧠</div><h3>الذكاء الاصطناعي</h3><p>حلول ذكاء اصطناعي متقدمة لتحليل البيانات وأتمتة العمليات</p></div>
-<div class="card"><div class="icon">☁️</div><h3>الحلول السحابية</h3><p>خدمات سحابية آمنة وقابلة للتوسع لتخزين وإدارة البيانات</p></div>
-<div class="card"><div class="icon">📱</div><h3>تطوير التطبيقات</h3><p>تطوير تطبيقات جوال وويب حديثة بأعلى معايير الجودة</p></div>
-<div class="card"><div class="icon">🔄</div><h3>التحول الرقمي</h3><p>استراتيجيات وحلول للتحول الرقمي وتطوير العمليات</p></div>
-<div class="card"><div class="icon">🏢</div><h3>حلول المؤسسات</h3><p>أنظمة ERP و CRM متكاملة لإدارة أعمال المؤسسات</p></div>
+<a class="skip" href="#main">تجاوز إلى المحتوى</a>
+<header><div class="container nav"><a class="logo" href="#home" aria-label="مابا للتقنية - الرئيسية"><img src="logo.png" alt="شعار MABA Tech" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'"/><span class="brand-fallback">MABA Tech. | مابا للتقنية</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const x=n.classList.toggle('open');this.setAttribute('aria-expanded',String(x))">☰ القائمة</button><nav id="navlinks" class="nav-links" aria-label="القائمة الرئيسية"><a href="#home">الرئيسية</a><a href="#services">خدماتنا</a><a href="#solutions">MABA Solutions</a><a href="#universe">MABA Universe</a><a href="#apps">MABA Apps</a><a href="#about">من نحن</a><a href="#contact">تواصل معنا</a></nav><a class="pill" href="https://wa.me/966555257087" target="_blank" rel="noopener noreferrer">اطلب عرض سعر</a></div></header>
+<main id="main">
+<section id="home" class="hero"><div class="container"><span class="eyebrow">MABA Tech. | مابا للتقنية</span><h1>نبني <span>مستقبلك الرقمي</span></h1><p>شريكك التقني الأول في بناء حلول رقمية مبتكرة. خدمات تقنية، ومنظومة متنامية من حلول الأعمال والتطبيقات والألعاب الرقمية.</p><div class="actions"><a class="btn primary" href="#solutions">استكشف مشاريعنا</a><a class="btn outline" href="#services">خدماتنا التقنية</a><a class="btn outline" href="#contact">تواصل معنا</a></div></div></section>
+<section id="services" class="section"><div class="container"><div class="section-heading"><h2>MABA Services | خدماتنا التقنية</h2><p>حلول متكاملة لدعم نمو أعمالك رقمياً</p></div><div class="grid">
+<article class="card"><div class="icon">🛡️</div><h3>الأمن السيبراني</h3><p>حلول لحماية البيانات والأنظمة من التهديدات السيبرانية.</p></article><article class="card"><div class="icon">🧠</div><h3>الذكاء الاصطناعي</h3><p>تحليل البيانات وأتمتة العمليات وتطوير التجارب الذكية.</p></article><article class="card"><div class="icon">☁️</div><h3>الحلول السحابية</h3><p>حلول مرنة لتخزين البيانات وإدارة البنية التقنية.</p></article><article class="card"><div class="icon">📱</div><h3>تطوير التطبيقات</h3><p>تصميم وتطوير تطبيقات الجوال والويب.</p></article><article class="card"><div class="icon">🔄</div><h3>التحول الرقمي</h3><p>حلول لتحديث العمليات وتحسين كفاءة الأعمال.</p></article><article class="card"><div class="icon">🏢</div><h3>حلول المؤسسات</h3><p>تصميم أنظمة لإدارة الموارد وعلاقات العملاء.</p></article>
 </div></div></section>
-<section class="section about" id="about"><div class="container">
-<h2>من نحن</h2><p class="sub">نلتزم بتقديم حلول تقنية مبتكرة تدفع عجلة التحول الرقمي</p>
-<div class="grid">
-<div class="card"><h3>👁️ رؤيتنا</h3><p>أن نكون شريكك التقني الأول في بناء حلول رقمية مبتكرة تصنع المستقبل.</p></div>
-<div class="card"><h3>🎯 رسالتنا</h3><p>تقديم حلول وخدمات تقنية متكاملة وموثوقة، تمكن الأفراد والشركات من النمو والتميز.</p></div>
-<div class="card"><h3>💎 قيمنا</h3><p>✓ الابتكار<br>✓ الجودة<br>✓ الموثوقية<br>✓ التركيز على العميل<br>✓ النمو المستدام</p></div>
+<section id="solutions" class="section alt"><div class="container"><div class="section-heading"><h2>MABA <span class="accent">Solutions</span></h2><p>حلول المال والأعمال والتجارة الرقمية ضمن محفظة مشاريع مابا</p></div><div class="grid">
+<article class="card project"><div class="project-icon">📊</div><h3>RASEED | رصيد</h3><p>حلول مالية وإدارية للأعمال تستهدف السعودية والخليج.</p><span class="tag">قيد التخطيط والتصميم</span></article>
+<article class="card project"><div class="project-icon">📈</div><h3>MABAStock AI</h3><p>تعليم وتحليل الأسواق المالية والمحافظ الافتراضية بالذكاء الاصطناعي، دون تنفيذ تداول حقيقي.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">🔎</div><h3>Find My Item</h3><p>محرك ذكي لمقارنة أسعار المنتجات عبر المتاجر.</p><span class="tag">قيد التخطيط والتطوير</span></article>
+<article class="card project"><div class="project-icon">🌸</div><h3>Perfum Galary</h3><p>سوق إلكتروني للعطور يربط البائعين بالمشترين.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">🎨</div><h3>Art Galary</h3><p>منصة مستقلة لتداول الأعمال الفنية والمقتنيات.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">✈️</div><h3>MABA Travel &amp; Tourism</h3><p>مشروع منصة للسفر وحجوزات الفنادق والإقامة.</p><span class="tag">قيد التخطيط</span></article>
+<article class="card project"><div class="project-icon">🧥</div><h3>Shahsiyaat | شخصيات</h3><p>منصة تجارة إلكترونية للأزياء والإكسسوارات الرجالية.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">🔗</div><h3>VendorScale | تكامل</h3><p>حلول رقمية لسلاسل الإمداد والموردين وقطاع الأعمال.</p><span class="tag">قيد التخطيط</span></article>
 </div></div></section>
-<footer id="contact"><div class="container"><div class="footer-grid">
-<div><h3>تواصل معنا</h3><p>📞 جوال: 0555257087</p><p>☎️ هاتف: 0112382270</p><p>✉️ info@mabatech.net</p><p>🌐 mabatech.net</p></div>
-<div><h3>معلومات التواصل</h3><p><b>مؤسسة محمد عبدالعزيز بشير العبدالله لتقنية المعلومات</b></p><p>السجل التجاري / الرقم الوطني الموحد: <b>7055518307</b></p><p>العنوان الوطني: <b>RRMA8215</b></p><p>📍 8215 شارع رقم 281، حي الملقا - الرياض</p><p>المملكة العربية السعودية</p></div>
-<div><h3>MABA Tech.</h3><p>مابا للتقنية - شريكك التقني الموثوق</p></div>
-</div><div class="copy">© 2026 MABA Tech. - جميع الحقوق محفوظة</div></div></footer>
-<a class="whatsapp" href="https://wa.me/966555257087">💬 واتساب: 0555257087</a>
-</body>
-</html>
+<section id="universe" class="section"><div class="container"><div class="section-heading"><h2>MABA <span class="accent">Universe</span></h2><p>عالم مابا للألعاب والتجارب الرقمية التفاعلية</p></div><div class="grid">
+<article class="card project"><div class="project-icon">🏎️</div><h3>Project Racing Universe</h3><p>مشروع لعبة سباقات يجمع تنوع المركبات والحلبات وأنماط القيادة.</p><span class="tag">نموذج أولي قيد العمل</span></article>
+<article class="card project"><div class="project-icon">🏜️</div><h3>السعودية: صد-رد</h3><p>تصور للعبة سباقات بطابع سعودي، والاسم مبدئي.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">🏇</div><h3>FARIS | فارس</h3><p>مشروع لعبة مع خطة لنموذج أولي منخفض التكلفة.</p><span class="tag">مرحلة التصميم والتخطيط</span></article>
+<article class="card project"><div class="project-icon">🃏</div><h3>Al-Shadda | الشدة</h3><p>منصة ألعاب ورق تشمل الهاند والأربعمية والليخة والرومي.</p><span class="tag">وثيقة تصميم جاهزة، البرمجة مؤجلة</span></article>
+<article class="card project"><div class="project-icon">♠️</div><h3>KOTSHINA | الكوتشينة</h3><p>مجموعة ألعاب ورق عربية وعالمية متعددة الأنماط.</p><span class="tag">قيد التخطيط</span></article>
+<article class="card project"><div class="project-icon">☄️</div><h3>Destroy the Meteorites</h3><p>لعبة فضائية ثلاثية الأبعاد بمنظور علوي للأجهزة الذكية.</p><span class="tag">مرحلة النموذج الأولي</span></article>
+<article class="card project"><div class="project-icon">🏙️</div><h3>طريق الثراء: الرياض</h3><p>لعبة عقارات استراتيجية بأحياء الرياض ونمطين للعب.</p><span class="tag">قيد تصميم القواعد</span></article>
+<article class="card project"><div class="project-icon">🔴</div><h3>4 تربح</h3><p>لعبة استراتيجية تنافسية مستوحاة من فكرة توصيل أربع قطع.</p><span class="tag">قيد التصميم</span></article>
+</div><p class="section-note">جميع الألعاب المعروضة مشاريع تطويرية؛ لا يعني إدراجها توفرها للتحميل أو الشراء.</p></div></section>
+<section id="apps" class="section alt"><div class="container"><div class="section-heading"><h2>MABA <span class="accent">Apps</span></h2><p>تطبيقات اجتماعية وثقافية وخدمية قيد الدراسة والتطوير</p></div><div class="grid">
+<article class="card project"><div class="project-icon">◎</div><h3>Dawaer | دوائر</h3><p>تطبيق تواصل اجتماعي بتجارب محتوى ومجتمعات رقمية.</p><span class="tag">قيد تصميم الواجهات</span></article>
+<article class="card project"><div class="project-icon">🎬</div><h3>Vichat | فيديوتشات</h3><p>منصة لمشاركة الفيديوهات القصيرة.</p><span class="tag">قيد تخطيط النموذج الأولي</span></article>
+<article class="card project"><div class="project-icon">📖</div><h3>البشير | Albasheer</h3><p>تطبيق للقرآن والحديث والأذكار ومواقيت الصلاة.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">🌙</div><h3>نبراس المسلم</h3><p>تطبيق للأذكار من القرآن والسنة.</p><span class="tag">قيد التخطيط</span></article>
+<article class="card project"><div class="project-icon">🎙️</div><h3>الراوي | Al-Rawi</h3><p>منصة قصص مسموعة من التراث والأدب.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">▶️</div><h3>Islamtube | إسلام تيوب</h3><p>تصور لمنصة فيديو بمحتوى مناسب للهوية الإسلامية.</p><span class="tag">قيد التخطيط</span></article>
+<article class="card project"><div class="project-icon">📂</div><h3>My Files | ملفاتي</h3><p>تطبيق لإدارة الملفات ومشاركتها ونقلها.</p><span class="tag">قيد تصميم الواجهات</span></article>
+<article class="card project"><div class="project-icon">🎧</div><h3>Your Voice | صوتك</h3><p>منصة اجتماعية تركز على المحتوى الصوتي.</p><span class="tag">قيد التصميم</span></article>
+<article class="card project"><div class="project-icon">🧭</div><h3>رواد الصحراء</h3><p>تطبيق لخدمة الرحلات البرية والملاحة والمعلومات دون اتصال.</p><span class="tag">قيد التخطيط</span></article>
+</div></div></section>
+<section id="about" class="section"><div class="container"><div class="section-heading"><h2>من نحن</h2><p>نلتزم بتقديم حلول تقنية مبتكرة تدفع عجلة التحول الرقمي</p></div><div class="grid about-grid"><article class="card"><h3>👁️ رؤيتنا</h3><p>أن نكون شريكك التقني الأول في بناء حلول رقمية مبتكرة تصنع المستقبل.</p></article><article class="card"><h3>🎯 رسالتنا</h3><p>تقديم حلول وخدمات تقنية متكاملة وموثوقة، تمكن الأفراد والشركات من النمو والتميز.</p></article><article class="card"><h3>💎 قيمنا</h3><ul class="values"><li>✓ الابتكار</li><li>✓ الجودة</li><li>✓ الموثوقية</li><li>✓ التركيز على العميل</li><li>✓ النمو المستدام</li></ul></article></div></div></section>
+</main>
+<footer id="contact" class="footer"><div class="container"><div class="footer-grid"><div><h3>تواصل معنا</h3><p>📞 جوال: <a href="tel:+966555257087" dir="ltr">0555257087</a></p><p>☎️ هاتف: <a href="tel:+966112382270" dir="ltr">0112382270</a></p><p>✉️ <a href="mailto:info@mabatech.net">info@mabatech.net</a></p><p>🌐 <a href="https://mabatech.net">mabatech.net</a></p></div><div><h3>معلومات التواصل</h3><p><b>مؤسسة محمد عبدالعزيز بشير العبدالله لتقنية المعلومات</b></p><p>السجل التجاري / الرقم الوطني الموحد: <b>7055518307</b></p><p>العنوان الوطني: <b>RRMA8215</b></p><p>📍 8215 شارع رقم 281، حي الملقا - الرياض</p><p>المملكة العربية السعودية</p></div><div><h3>MABA Tech.</h3><p>مابا للتقنية - شريكك التقني الموثوق</p><p>حلول رقمية مبتكرة، ومشاريع مستقبلية طموحة.</p></div></div><div class="copy">© 2026 MABA Tech. - جميع الحقوق محفوظة</div></div></footer>
+<a class="whatsapp" href="https://wa.me/966555257087" target="_blank" rel="noopener noreferrer" aria-label="التواصل عبر واتساب">💬 واتساب</a>
+<script>document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>{document.getElementById('navlinks').classList.remove('open');document.querySelector('.menu-toggle').setAttribute('aria-expanded','false')}));</script>
+</body></html>
