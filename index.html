@@ -58,4 +58,32 @@
 <footer id="contact" class="footer"><div class="container"><div class="footer-grid"><div><h3>تواصل معنا</h3><p>📞 جوال: <a href="tel:+966555257087" dir="ltr">0555257087</a></p><p>☎️ هاتف: <a href="tel:+966112382270" dir="ltr">0112382270</a></p><p>✉️ <a href="mailto:info@mabatech.net">info@mabatech.net</a></p><p>🌐 <a href="https://mabatech.net">mabatech.net</a></p></div><div><h3>معلومات التواصل</h3><p><b>مؤسسة محمد عبدالعزيز بشير العبدالله لتقنية المعلومات</b></p><p>السجل التجاري / الرقم الوطني الموحد: <b>7055518307</b></p><p>العنوان الوطني: <b>RRMA8215</b></p><p>📍 8215 شارع رقم 281، حي الملقا - الرياض</p><p>المملكة العربية السعودية</p></div><div><h3>MABA Tech.</h3><p>مابا للتقنية - شريكك التقني الموثوق</p><p>حلول رقمية مبتكرة، ومشاريع مستقبلية طموحة.</p></div></div><div class="copy">© 2026 MABA Tech. - جميع الحقوق محفوظة</div></div></footer>
 <a class="whatsapp" href="https://wa.me/966555257087" target="_blank" rel="noopener noreferrer" aria-label="التواصل عبر واتساب">💬 واتساب</a>
 <script>document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>{document.getElementById('navlinks').classList.remove('open');document.querySelector('.menu-toggle').setAttribute('aria-expanded','false')}));</script>
-</body></html>
+<!-- نموذج تواصل معنا -->
+<section id="contact" style="padding:60px 20px; background:#0a1628; text-align:center;">
+  <h2 style="color:white; font-size:28px; margin-bottom:10px;">تواصل معنا</h2>
+  <p style="color:#ccc; margin-bottom:30px;">عبّي النموذج و بنرد عليك خلال 24 ساعة</p>
+
+  <form action="https://formsubmit.co/info@mabatech.net" method="POST" style="max-width:600px; margin:auto; text-align:right; direction:rtl;">
+    <input type="hidden" name="_subject" value="طلب جديد من موقع mabatech.net">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://www.mabatech.net/?sent=ok">
+
+    <input type="text" name="الاسم" placeholder="الاسم الكامل *" required style="width:100%; padding:14px; margin-bottom:12px; border-radius:10px; border:1px solid #ddd;">
+    <input type="tel" name="الجوال" placeholder="رقم الجوال *" required style="width:100%; padding:14px; margin-bottom:12px; border-radius:10px; border:1px solid #ddd;">
+    <input type="email" name="الايميل" placeholder="البريد الإلكتروني *" required style="width:100%; padding:14px; margin-bottom:12px; border-radius:10px; border:1px solid #ddd;">
+
+    <select name="نوع الخدمة" required style="width:100%; padding:14px; margin-bottom:12px; border-radius:10px; border:1px solid #ddd;">
+      <option value="">اختر نوع الخدمة *</option>
+      <option>تطوير موقع إلكتروني</option>
+      <option>تطبيق جوال</option>
+      <option>متجر إلكتروني</option>
+      <option>هوية بصرية</option>
+      <option>أخرى</option>
+    </select>
+
+    <textarea name="الرسالة" placeholder="اكتب تفاصيل مشروعك..." rows="5" required style="width:100%; padding:14px; margin-bottom:16px; border-radius:10px; border:1px solid #ddd;"></textarea>
+
+    <button type="submit" style="width:100%; padding:16px; background:#0ea5e9; color:white; border:none; border-radius:10px; font-size:18px; font-weight:bold; cursor:pointer;">إرسال الطلب</button>
+  </form>
+</section></body></html>
